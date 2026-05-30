@@ -31,7 +31,7 @@ This site presents Haris as a documentation-first platform reference. It is inte
   </div>
   <div class="feature-card">
     <h3>Operations</h3>
-    <p>Monitors service state, storage, connectivity, and telemetry freshness so the node itself remains observable and supportable.</p>
+    <p>Uses Watchtower automation to provision service state, storage, connectivity, telemetry freshness, and core-side observability.</p>
   </div>
   <div class="feature-card">
     <h3>Security</h3>
@@ -45,7 +45,8 @@ This site presents Haris as a documentation-first platform reference. It is inte
 - Buffers locally so the node remains functional during unstable or intermittent links.
 - Forwards structured telemetry, logs, and health context into SOC and M-SOC workflows.
 - Establishes a cleaner trust boundary before data reaches central infrastructure.
+- Applies repeatable vessel-edge and M-SOC configuration through Watchtower playbooks.
 
 <div class="cta-panel">
-  <p><strong>Recommended reading path:</strong> review the architecture, deployment, and security pages in sequence before preparing a vessel installation or core-side integration.</p>
+  <p><strong>Recommended reading path:</strong> review the architecture, Watchtower, deployment, and security pages in sequence before preparing a vessel installation or core-side integration.</p>
 </div>
