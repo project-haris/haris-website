@@ -12,10 +12,6 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: pages
-  cancel-in-progress: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -34,15 +30,7 @@ jobs:
 
       - name: Build site
         run: |
-          rm -rf site
           zensical build
-
-      - name: Prepare Pages artifact
-        run: |
-          rm -rf site/.cache
-          rm -f site/.gitignore site/requirements.txt site/shell.nix site/zensical.toml
-          cp CNAME site/CNAME
-          touch site/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
