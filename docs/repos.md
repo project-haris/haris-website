@@ -1,6 +1,6 @@
 ---
 title: Project Haris Repositories
-description: Source repositories for Project Haris, including marine_haris, Watchtower automation, and the haris.ahmdngi.io documentation site.
+description: Source repositories for Project Haris, including marine_haris, Watchtower automation, and the haris.oversight.ee documentation site.
 keywords:
   - Project Haris repositories
   - marine_haris
@@ -54,6 +54,6 @@ Repository: <https://github.com/project-haris/watchtower>
 - `elk_stack` when enabled - Elasticsearch, Logstash, and Kibana
 - `docker` when enabled - container runtime installation
 
-## `haris.ahmdngi.io`
+## `haris.oversight.ee`
 
 Static marketing site. This Zensical folder reframes the same project as a documentation-first presentation that can be served with `zensical serve`.

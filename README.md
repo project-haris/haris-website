@@ -1,13 +1,13 @@
 # haris-zensical-docs
 
-Zensical-backed documentation source for `haris.ahmdngi.io`.
+Zensical-backed documentation source for `haris.oversight.ee`.
 
 ## Structure
 
 - `zensical.toml` - Zensical project configuration
 - `docs/index.md` - homepage markdown source
 - `docs/` - additional markdown pages and theme assets
-- `CNAME` - custom domain mapping for `haris.ahmdngi.io`
+- `CNAME` - custom domain mapping for `haris.oversight.ee`
 - `.github/workflows/ci.yml` - build and deploy workflow for GitHub Pages
 
 ## Notes

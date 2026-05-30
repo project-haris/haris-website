@@ -1,6 +1,6 @@
 [project]
 site_name = "Haris Maritime Edge Docs"
-site_url = "https://haris.ahmdngi.io/"
+site_url = "https://haris.oversight.ee/"
 site_description = "Documentation for Haris, a secure maritime edge telemetry platform for vessel data collection, Signal K normalization, and M-SOC integration."
 site_author = "Project Haris"
 docs_dir = "docs"
