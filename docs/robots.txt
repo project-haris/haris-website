@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://haris.ahmdngi.io/sitemap.xml

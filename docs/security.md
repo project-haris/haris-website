@@ -1,3 +1,14 @@
+---
+title: Haris Security Model
+description: Security model for Haris maritime telemetry with encrypted Tailscale transport, fail-closed firewalls, local buffering, and operational controls.
+keywords:
+  - maritime telemetry security
+  - Haris security
+  - Tailscale maritime
+  - vessel data security
+  - edge device hardening
+---
+
 # Security
 
 Haris is presented as a secure system because the security model is layered. It does not depend on one control.

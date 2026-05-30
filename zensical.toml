@@ -1,9 +1,10 @@
 [project]
-site_name = "Haris Docs"
+site_name = "Haris Maritime Edge Docs"
 site_url = "https://haris.ahmdngi.io/"
-site_description = "Documentation-first reference for the Haris maritime edge intelligence platform."
+site_description = "Documentation for Haris, a secure maritime edge telemetry platform for vessel data collection, Signal K normalization, and M-SOC integration."
+site_author = "Project Haris"
 docs_dir = "docs"
-repo_url = "https://github.com/ahmdngi/marine_haris"
+repo_url = "https://github.com/project-haris/haris.ahmdngi.io"
 extra_css = ["stylesheets/extra.css"]
 extra_javascript = ["javascripts/extra.js"]
 nav = [
@@ -18,6 +19,7 @@ nav = [
 
 [project.theme]
 language = "en"
+custom_dir = "overrides"
 features = [
   "navigation.instant",
   "navigation.sections",

@@ -1,3 +1,14 @@
+---
+title: Watchtower Ansible Automation
+description: Watchtower provisions Haris vessel edge nodes and M-SOC core services with Ansible playbooks for Signal K, harisd, Filebeat, ELK, Tailscale, and Zabbix.
+keywords:
+  - Watchtower Ansible
+  - Haris deployment
+  - maritime Ansible automation
+  - vessel edge provisioning
+  - M-SOC infrastructure
+---
+
 # Watchtower
 
 Watchtower is the Ansible automation layer for Project Haris vessel edge nodes and M-SOC core services. It provisions edge devices, deploys the Haris data collector and Signal K stack, and configures the onshore ELK pipeline that receives `haris_signalk` events.

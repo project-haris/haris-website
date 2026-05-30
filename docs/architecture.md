@@ -1,3 +1,14 @@
+---
+title: Haris Architecture
+description: Architecture for Haris maritime telemetry with Raspberry Pi 5, PiCAN-M, Signal K, harisd, Tailscale, Filebeat, Logstash, Elasticsearch, and Kibana.
+keywords:
+  - maritime telemetry architecture
+  - Signal K architecture
+  - NMEA 2000
+  - vessel edge computing
+  - ELK maritime observability
+---
+
 # Architecture
 
 Haris is built as an edge-first maritime telemetry system. The core idea is simple: process high-value vessel data on the node, then move only the data that should leave the vessel over protected transport.

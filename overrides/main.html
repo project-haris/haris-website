@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  {% set title = page.meta.title if page.meta and page.meta.title else (page.title | striptags if page.title else config.site_name) %}
+  {% set description = page.meta.description if page.meta and page.meta.description else config.site_description %}
+  {% set canonical = page.canonical_url if page.canonical_url else config.site_url %}
+  {% set image = config.site_url ~ 'assets/logo.svg' %}
+  {% set is_home = canonical == config.site_url %}
+  <meta name="robots" content="index,follow">
+  {% if page.meta and page.meta.keywords %}
+    <meta name="keywords" content="{{ page.meta.keywords | join(', ') }}">
+  {% endif %}
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:type" content="{% if is_home %}website{% else %}article{% endif %}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:image" content="{{ image }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:description" content="{{ description }}">
+  <meta name="twitter:image" content="{{ image }}">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "{% if is_home %}WebSite{% else %}TechArticle{% endif %}",
+      "name": {{ title | tojson }},
+      "description": {{ description | tojson }},
+      "url": {{ canonical | tojson }},
+      "publisher": {
+        "@type": "Organization",
+        "name": "Project Haris",
+        "url": "https://haris.ahmdngi.io/"
+      }
+    }
+  </script>
+{% endblock %}

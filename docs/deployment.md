@@ -1,3 +1,14 @@
+---
+title: Haris Deployment Guide
+description: Deploy Haris from bench setup to sealed vessel install using Watchtower Ansible playbooks for vessel edge nodes and M-SOC core services.
+keywords:
+  - Haris deployment
+  - maritime edge deployment
+  - vessel telemetry setup
+  - Watchtower playbooks
+  - Signal K deployment
+---
+
 # Deployment
 
 Haris is designed to move from hardware bench to sealed vessel install through a repeatable process.

@@ -1,3 +1,13 @@
+---
+title: Project Haris Repositories
+description: Source repositories for Project Haris, including marine_haris, Watchtower automation, and the haris.ahmdngi.io documentation site.
+keywords:
+  - Project Haris repositories
+  - marine_haris
+  - Watchtower repository
+  - maritime open source
+---
+
 # Repos
 
 The Haris workspace is a set of focused sub-projects.

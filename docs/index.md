@@ -1,3 +1,14 @@
+---
+title: Haris Maritime Edge Telemetry Platform
+description: Secure maritime edge telemetry platform for vessel data collection, Signal K normalization, encrypted transport, and M-SOC integration.
+keywords:
+  - maritime telemetry
+  - vessel data collection
+  - Signal K
+  - NMEA 2000
+  - maritime security operations center
+---
+
 # Haris Docs
 
 <div class="hero-shell">

@@ -1,3 +1,13 @@
+---
+title: Haris FAQ
+description: Answers about Haris vessel telemetry collection, edge processing, maritime security controls, degraded connectivity, and M-SOC integration.
+keywords:
+  - Haris FAQ
+  - vessel telemetry FAQ
+  - maritime edge platform
+  - M-SOC integration
+---
+
 # FAQ
 
 ## What exactly does Haris collect and process on the vessel?
